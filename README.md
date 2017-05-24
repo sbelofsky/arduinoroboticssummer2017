@@ -1,6 +1,6 @@
 # arduinoroboticssummer2017
 
-//two leds blinking at once
+//5-23-17 Two leds blinking at once 
 
 int led = 9;
 int led2 = 8;
@@ -23,3 +23,6 @@ digitalWrite(led2, LOW);
 delay(100);}
 
 }
+
+//5-23-17 Problems Encountered:
+//when trying to use the LDR with the LED, various codes and configurations never seemed to work. My goal was to have the LED turn on when its dark and turn off in the presence of light. Despite my many tries, nothing seemed to work even when I copied other codes and variations from online tutorials exactly. This made me wonder wether it was my equipment at fault rather than the codes so I plan to try this again with a new LDR.
