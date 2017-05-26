@@ -34,29 +34,27 @@ void loop() {
 
 
 //Turning on the LED based on brightness
-const int analogPin = A0;    // pin that the sensor is attached to
-const int ledPin = 13;       // pin that the LED is attached to
-const int threshold = 400;   // an arbitrary threshold level that's in the range of the analog input
+int sensorPin = A0;    // select the input pin for the potentiometer
+int ledPin = 13;      // select the pin for the LED
+int sensorValue = 0;  // variable to store the value coming from the sensor
 
 void setup() {
-  // initialize the LED pin as an output:
+  // declare the ledPin as an OUTPUT:
   pinMode(ledPin, OUTPUT);
-  // initialize serial communications:
-  Serial.begin(9600);
+ Serial.begin (9600);
 }
 
 void loop() {
-  // read the value of the potentiometer:
-  int analogValue = analogRead(analogPin);
+  // read the value from the sensor:
+   Serial.println (sensorValue); 
+  sensorValue = analogRead(sensorPin);
+  // turn the ledPin on
+  digitalWrite(ledPin, HIGH);
+  if (sensorValue <= 920)
+  
+  digitalWrite(ledPin, LOW);
+  if (sensorValue <= 620)
 
- 
-  if (analogPin < 800) {
-    digitalWrite(ledPin, HIGH);
-  } else {
-    digitalWrite(ledPin, LOW);
-  }
-
-  // print the analog value:
-  Serial.println(analogValue);
-  delay(1);        // delay in between reads for stability
+  // stop the program for for <sensorValue> milliseconds:
+  delay(sensorValue);
 }
