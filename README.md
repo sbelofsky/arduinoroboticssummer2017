@@ -9,6 +9,7 @@ When trying to use the LDR with the LED, various codes and configurations never 
 
 The first task, the AnalogInput, did not seem to work for me. It never showed anything on the serial monitor and didn't react to the amount of light on the LDR.
 The second set of tasks weren't as successful. The power showed on the Serial Monitor but didnt react to the change of light. I'm sure it is my code at fault but I am not sure how to fix it.
-Update: First task showed the values of the LDR to be 14. No changes wether dark or light.
+Update: Successfully got the PrintIn to work, the LDR ranges from 690 to 920 in changing light.
+Update 2: Successfully got the LED to properly react to the change in light!
 
 
