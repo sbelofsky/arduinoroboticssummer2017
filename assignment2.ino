@@ -71,7 +71,7 @@ void loop() {
   sensorValue = analogRead(sensorPin);
   // turn the ledPin on
   digitalWrite(ledPin, HIGH);
-  if (sensorValue <= 840)
+  if (sensorValue >= 840)
   
   digitalWrite(ledPin, LOW);
   if (sensorValue >= 920)
