@@ -9,6 +9,7 @@ while (sensorValue >=400) {
 
 **For Loop**
 <p>Variant of the While Loop</p>
+
 ```c++
 for(int count=0; count <7; count=count+1){
 //etc HIGH, DELAY, LOW, DELAY
