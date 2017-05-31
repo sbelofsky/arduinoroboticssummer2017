@@ -39,15 +39,12 @@ ___
 
 **Vehicle with Momentary Switch**
 
-```
-//based on the code of Mert Arduino and Tech
-
+```c++
 const int leftForward = 2;
 const int leftBackward = 3;
 const int rightForward = 4;
 const int rightBackward = 5;
 const int pushButton = 6;
-
 
 void setup() 
 {
@@ -59,9 +56,7 @@ void setup()
   pinMode(leftBackward , OUTPUT);
   pinMode(rightForward , OUTPUT);
   pinMode(rightBackward , OUTPUT);
-
 }
-
 void loop()
 {
   int buttonState = digitalRead(pushButton);
@@ -69,13 +64,13 @@ void loop()
   Serial.println(buttonState);
   delay(1);        
   if (buttonState == HIGH) {
-  digitalWrite(leftForward , HIGH);   //move forward
+  digitalWrite(leftForward , HIGH);   //Move forward when button is pressed
   digitalWrite(leftBackward , LOW);
   digitalWrite(rightForward , HIGH);
   digitalWrite(rightBackward , LOW);
   }
   else {
-  digitalWrite(leftForward , LOW);   //move forward
+  digitalWrite(leftForward , LOW);   //Turn off when button is not pushed
   digitalWrite(leftBackward , LOW);
   digitalWrite(rightForward , LOW);
   digitalWrite(rightBackward , LOW);
