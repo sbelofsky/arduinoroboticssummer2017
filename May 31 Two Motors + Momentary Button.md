@@ -2,7 +2,7 @@
 ___
 
 **Two Motors Assignment**
-<img src="https://github.com/sbelofsky/arduinoroboticssummer2017/blob/master/2017-05-31%2015.59.39.jpg?raw=true " alt="My Arduino Vehicle" style="width: 200px;"/>
+<img src="https://github.com/sbelofsky/arduinoroboticssummer2017/blob/master/2017-05-31%2015.59.39.jpg?raw=true " alt="My Arduino Vehicle" style="width: 100px;"/>
 
 ```c++
 //based on the video by Mert Arduino and Tech
