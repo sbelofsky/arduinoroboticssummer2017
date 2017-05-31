@@ -3,7 +3,7 @@ ___
 
 **Two Motors Assignment**
 
-![My Arduino Vehicle](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![My Arduino Vehicle](https://github.com/sbelofsky/arduinoroboticssummer2017/blob/master/2017-05-31%2015.59.39.jpg?raw=true)
 
 ```c++
 //based on the video by Mert Arduino and Tech
