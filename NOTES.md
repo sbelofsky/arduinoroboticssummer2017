@@ -1,5 +1,5 @@
-___
 ###### MAY 31 2017 
+___
 **While Loop** 
 ```c++
 while (sensorValue >=400) {
