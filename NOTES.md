@@ -44,3 +44,7 @@ TRIG to pin x
 `Serial.PrintIn(" cm")` - adds a label to the value, but not necessary
 
 <br>-PINS 0 and 1 are for USB communication. 
+<br>-analogRead returns information (=) No void
+
+`<, >, <=, =>, ==, !=`
+
