@@ -50,9 +50,7 @@ const int pushButton = 6;
 void setup() 
 {
  Serial.begin(9600);
-  // make the pushbutton's pin an input:
   pinMode(pushButton, INPUT);
-  
   pinMode(leftForward , OUTPUT);
   pinMode(leftBackward , OUTPUT);
   pinMode(rightForward , OUTPUT);
@@ -79,3 +77,39 @@ void loop()
 }
 ```
 
+___
+
+**Modified Momentary Switch**
+When button is pressed one, action is played indefinetely 
+
+```
+const int leftForward = 2;
+const int leftBackward = 3;
+const int rightForward = 4;
+const int rightBackward = 5;
+const int pushButton = 6;
+
+void setup() 
+{
+ Serial.begin(9600);
+  pinMode(pushButton, INPUT);
+  
+  pinMode(leftForward , OUTPUT);
+  pinMode(leftBackward , OUTPUT);
+  pinMode(rightForward , OUTPUT);
+  pinMode(rightBackward , OUTPUT);
+}
+void loop()
+{
+  int buttonState = digitalRead(pushButton);
+  // print out the state of the button:
+  Serial.println(buttonState);
+  delay(1);        
+  if (buttonState == HIGH) {
+  digitalWrite(leftForward , HIGH);   //Move forward when button is pressed
+  digitalWrite(leftBackward , LOW);
+  digitalWrite(rightForward , HIGH);
+  digitalWrite(rightBackward , LOW);
+//"if" was removed to allow the button to be able to be pressed once instead of being held down
+  }
+}
