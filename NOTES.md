@@ -34,5 +34,6 @@ ECHO to pin x
 TRIG to pin x
 ```
 <p>-Echo: Listens, Trig: Trigger
-<br>-Uses Microseconds
+<br>-Uses Microseconds rather than milliseconds
+<br>-</br> `count=count+1)` is a type of integer. Only uses whole numbers
 
