@@ -23,4 +23,13 @@ for(int count=0; count <7; count=count+1){
 
 ___
 
+###### JUNE 2 2017 
+___
+**Distance Sensor**
+<p>VCC to 5v
+<p>GND to GND
+<p>ECHO to pin x
+<p>TRIG to pin x
+
+<p>Echo: Listens, Trig: Trigger
 
