@@ -18,6 +18,7 @@ The second set of tasks weren't as successful. The power showed on the Serial Mo
 **Update:** Successfully got the PrintIn to work, the LDR ranges from 690 to 920 in changing light and got the LED to properly react to the change in light.
 ___
 
-###### 5-31-17 
+###### 6-1-17 
 
+No major problems encountered with the given assignments. I feel like i'm improving and feeling more comfortable with coding. Because of this, I wanted to try jumping ahead and try adding a distance sensor to my Arduino vehicle and have it stop and turn away when it encounters an obstacle. I am still in the process of debugging my code and have it working properly.
 
