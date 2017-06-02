@@ -36,4 +36,6 @@ TRIG to pin x
 <p>-Echo: Listens, Trig: Trigger
 <br>-Uses Microseconds rather than milliseconds
 <br>-LONG is a type of integer. Only uses whole numbers
-
+`Serial.PrintIn(sensorValue)` - Label
+`Serial.Print(distance)` - Uses the numbers calculated earlier in the code
+`Serial.PrintIn(" cm")` - adds a label to the value, but not necessary
