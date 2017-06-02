@@ -8,7 +8,7 @@ while (sensorValue >=400) {
 ```
 
 **For Loop**
-<p>Variant of the While Loop</p>
+<br>Variant of the While Loop</br>
 
 ```c++
 for(int count=0; count <7; count=count+1){
@@ -26,7 +26,7 @@ ___
 ###### JUNE 2 2017 
 ___
 **Distance Sensor**
-<br>http://www.instructables.com/id/Simple-Arduino-and-HC-SR04-Example/</br>
+<br>Example code: http://www.instructables.com/id/Simple-Arduino-and-HC-SR04-Example/</br>
 ```
 VCC to 5v
 GND to GND
@@ -34,5 +34,5 @@ ECHO to pin x
 TRIG to pin x
 ```
 <p>-Echo: Listens, Trig: Trigger
-<p>-Uses Microseconds
+<br>-Uses Microseconds
 
