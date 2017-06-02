@@ -26,11 +26,13 @@ ___
 ###### JUNE 2 2017 
 ___
 **Distance Sensor**
+http://www.instructables.com/id/Simple-Arduino-and-HC-SR04-Example/
 ```
 VCC to 5v
 GND to GND
 ECHO to pin x
 TRIG to pin x
 ```
-<p>Echo: Listens, Trig: Trigger
+<p>-Echo: Listens, Trig: Trigger
+<p>-Uses Microseconds
 
