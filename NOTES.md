@@ -26,7 +26,7 @@ ___
 ###### JUNE 2 2017 
 ___
 **Distance Sensor**
-http://www.instructables.com/id/Simple-Arduino-and-HC-SR04-Example/
+<br>http://www.instructables.com/id/Simple-Arduino-and-HC-SR04-Example/</br>
 ```
 VCC to 5v
 GND to GND
