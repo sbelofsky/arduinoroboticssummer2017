@@ -46,5 +46,11 @@ TRIG to pin x
 <br>-PINS 0 and 1 are for USB communication. 
 <br>-analogRead returns information (=) No void
 
-`<, >, <=, =>, ==, !=`
+**Servo Motors**
+<br>Can be told exactly where to go in 180 degrees. Can be pointed in specific positions.
+<br>Brown = GRND, Red = 5V, Orange = Signal
+<br>   -Signal goes to an Arduino pin
+
+<br>`#include <Servo.h>` Arduino Library, provided with program
+<br>`Servo myservo;` Handle for the servo motor
 
