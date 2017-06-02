@@ -80,8 +80,7 @@ void loop()
 ___
 
 **Modified Momentary Switch**
-<p>When button is pressed one, action is played indefinetely </p>
-<p>This happens because I removed the "if" code section and therefore the program doesn't know when to stop.</p>
+<p>When button is pressed one, action is played indefinetely. This happens because I removed the "if" code section and therefore the program doesn't know when to stop.</p>
 
 ```c++
 const int leftForward = 2;
