@@ -42,3 +42,5 @@ TRIG to pin x
 `Serial.Print(distance)` - Uses the numbers calculated earlier in the code
 
 `Serial.PrintIn(" cm")` - adds a label to the value, but not necessary
+
+<br>-PINS 0 and 1 are for USB communication. 
