@@ -17,8 +17,7 @@ int gnd = 11;
 
 long duration, distance; // Duration used to calculate distance
 
-void setup() 
-{
+void setup() {
   pinMode(leftForward , OUTPUT);
   pinMode(leftBackward , OUTPUT);
   pinMode(rightForward , OUTPUT);
@@ -29,12 +28,11 @@ void setup()
   Serial.begin(9600);
 }
 
-void loop()
-{
+void loop() {
   digitalWrite(vcc, HIGH);
   long duration, cm;
 
-pinMode(trig, OUTPUT);
+ pinMode(trig, OUTPUT);
 digitalWrite(trig, LOW);
 delayMicroseconds(2);
 digitalWrite(trig, HIGH);
@@ -49,21 +47,26 @@ distance = (duration/2) / 28.5 ; //declares what the distance is
   } else {
   Serial.println(distance); //prints distance in cm
   }
-  
-  if ( distance > 20 ) {//if distance is more than 20cm, arduino move forward
+
+  if ( distance > 20 ) {
+    //if distance is more than 20cm, arduino move forward
     digitalWrite(leftForward , HIGH);
     digitalWrite(leftBackward , LOW);
     digitalWrite(rightForward , HIGH);
     digitalWrite(rightBackward , LOW);
     delay(100);
   }
-  else //if there is an obstacle, Arduino turns until distance is <20
+  else 
+  //if there is an obstacle, Arduino turns until distance is <20
   {
     digitalWrite(leftForward , LOW);
     digitalWrite(leftBackward , HIGH);
     digitalWrite(rightForward , HIGH);
     digitalWrite(rightBackward , LOW);
+    delay(500); //turns long enough to avoid most objects
   }
 }
+
+
 ```
 
