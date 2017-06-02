@@ -35,7 +35,6 @@ void loop()
   delay(200);
 }
 ```
-###### JUNE 2 2017 ASSIGNMENT
 ___
 
 **Vehicle with Momentary Switch**
