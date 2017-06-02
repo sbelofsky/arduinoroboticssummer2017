@@ -80,9 +80,9 @@ void loop()
 ___
 
 **Modified Momentary Switch**
-When button is pressed one, action is played indefinetely 
+<p>When button is pressed one, action is played indefinetely </p>
 
-```
+```c++
 const int leftForward = 2;
 const int leftBackward = 3;
 const int rightForward = 4;
