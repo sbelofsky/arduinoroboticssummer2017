@@ -1,4 +1,7 @@
 ###### JUNE 2 2017 ASSIGNMENT
+
+Picture: https://drive.google.com/open?id=0ByoG_GCyf9IYenFEN0R0UmVSMXc
+<br>Video: https://drive.google.com/open?id=0ByoG_GCyf9IYSVltbXViMzFpX1U
 ___
 **Obstacle Avoiding Robot**
 
