@@ -57,3 +57,18 @@ ___
 
 ###### JUNE 5 2017
 ___
+**Shields**
+<br>-Arduino Shields and diy: Souder your own circuits, more permanent and more reliable
+<br>-Has cool options (Ex: wifi, bluetooth, etc...)
+<br>-Sockets: holes Pins: inserted into sockets
+
+**Light Seeking Robot**
+```c++
+int rightSensor = analogRead (rightSensorPin)
+int left ... left
+if (lightSensor > left Sensor) {
+ turnRight();
+ } else }
+  turnLeft();
+ }
+```
