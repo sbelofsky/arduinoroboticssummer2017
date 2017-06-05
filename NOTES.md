@@ -1,3 +1,4 @@
+___
 ###### MAY 31 2017 
 ___
 **While Loop** 
@@ -22,7 +23,6 @@ for(int count=0; count <7; count=count+1){
 `count=count+1)` Apply change after every loop
 
 ___
-
 ###### JUNE 2 2017 
 ___
 **Distance Sensor**
@@ -53,3 +53,7 @@ TRIG to pin x
 <br>`#include <Servo.h>` Arduino Library, provided with program
 <br>`Servo myservo;` Handle for the servo motor
 
+___
+
+###### JUNE 5 2017
+___
