@@ -1,4 +1,3 @@
-___
 ###### JUNE 5 Assignments 
 ___
 **Functions for Arduino Vehicle**
