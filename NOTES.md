@@ -72,3 +72,34 @@ if (lightSensor > left Sensor) {
   turnLeft();
  }
 ```
+___
+
+###### JUNE 7 2017
+___
+**Print 2 readings**
+<br>Serial Prints from 2 LDRs from Sergio Burgos' code:
+```c++
+void loop() {
+  sensorValue1 = analogRead(sensorPin1); // update sensorValue1
+  sensorValue2 = analogRead(sensorPin2); // update sensorValue2
+
+  // print "Sensor 1:(sensorValue1)"
+  Serial.print("Sensor 1: ");
+  Serial.print(sensorValue1);
+
+  // print "Sensor 2:(sensorValue2)"
+  Serial.print(" Sensor 2: ");
+  Serial.print(sensorValue2);
+
+  // print space to start new line on serial monitor
+  Serial.println();
+
+  // creating condition for servo to turn left or right following light
+  if (sensorValue1 > sensorValue2) {
+    myservo.write(170);
+    delay(1500);
+  } else {
+    myservo.write(0);
+    delay(1500);
+  }
+```
