@@ -103,3 +103,7 @@ void loop() {
     delay(1500);
   }
 ```
+**Absolute**
+<br> Absolute: `abs` ignores negatives
+
+
