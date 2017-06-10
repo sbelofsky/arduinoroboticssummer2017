@@ -105,5 +105,25 @@ void loop() {
 ```
 **Absolute**
 <br> Absolute: `abs` ignores negatives
+___
 
+###### JUNE 9 2017
+___
+**Arrays**
+Ways of storing many numbers under one name. Must declare type (below)
+```c++
+int myInts[6];
+  int myPins[] = {2, 4, 8, 3, 6};
+  int mySensVals[6] = {2, 4, -8, 3, 2};
+  char message[6] = "hello";
+```
+`long` = for larger bits (billions)
+<br>`int` = shorter, uses less space (thousands)
+<br>Both only uses whole numbers
+<br>`float` = can use decimal points, uses more space
+<br>`boolean` = Either 0 or 1, true or false, smallest storage
+
+**Classes**
+-Has functions, behaviours, and variables. Class is like a folder and Objects are like a file
+<br>- `servo` is a class, `myservo` ia an object
 
