@@ -25,6 +25,6 @@ long avrage(int x, int y, int z) {
 ```
 ___
 **Fritzing**
-![alt text](https://drive.google.com/open?id=0ByoG_GCyf9IYdWxmbzRqOU5JaHc)
+![alt text](https://drive.google.com/file/d/0ByoG_GCyf9IYdWxmbzRqOU5JaHc/view)
 I am still unclear with schematic view which is why it looks hard to understand. I plan to get a better understanding and revise this in the future.
 
