@@ -25,6 +25,6 @@ long avrage(int x, int y, int z) {
 ```
 ___
 **Fritzing**
-![alt text](https://drive.google.com/file/d/0ByoG_GCyf9IYdWxmbzRqOU5JaHc/view)
+![alt text](https://github.com/sbelofsky/arduinoroboticssummer2017/blob/master/images/Screen%20Shot%202017-06-09%20at%206.09.59%20PM.png?raw=true)
 I am still unclear with schematic view which is why it looks hard to understand. I plan to get a better understanding and revise this in the future.
 
