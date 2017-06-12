@@ -127,3 +127,9 @@ int myInts[6];
 -Has functions, behaviours, and variables. Class is like a folder and Objects are like a file
 <br>- `servo` is a class, `myservo` ia an object
 
+___
+###### JUNE 12 2017
+___
+
+Unisigned: Ignores negative numbers
+<br>CurrentMillis: tracks the time, goes back to 0 whenever reset
