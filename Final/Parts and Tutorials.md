@@ -14,6 +14,7 @@ ___
 **Reference Tutorials**
 <br>http://www.instructables.com/id/QUATTRO-the-Arduino-Quadruped-Robot/
 <br>http://www.instructables.com/id/Arduino-Based-Four-Legged-Robot/
+<br>http://forum.arduino.cc/index.php?topic=268990.0
 ___
 
 **Prototype leg**
