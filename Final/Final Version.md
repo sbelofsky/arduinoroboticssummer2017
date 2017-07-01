@@ -9,4 +9,5 @@ Ideally, if given more time and resources, I would have wanted this robot to be 
 
 ![spider](https://github.com/sbelofsky/arduinoroboticssummer2017/blob/master/images/20170626_001902.jpg?raw=true)
 <p>Due to time constraints, I was not able to properly understand the coding for PWM and so the movements the robot is able to make are only very simple such as <a href="https://github.com/sbelofsky/arduinoroboticssummer2017/blob/master/Final/coding/Robot_PWM_stand.ino">standing</a>, a <a href="https://github.com/sbelofsky/arduinoroboticssummer2017/blob/master/Final/coding/robot_PWM_sweep_all.ino">sweep</a> all the joints, and <a href="https://github.com/sbelofsky/arduinoroboticssummer2017/blob/master/Final/coding/a_very_sad_attempt_at_walking.ino"> a fairly strange attempt at walking</a>.
+
 ![schematic](https://github.com/sbelofsky/arduinoroboticssummer2017/blob/master/images/Screen%20Shot%202017-07-01%20at%202.22.57%20AM.png?raw=true)
